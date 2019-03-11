@@ -1,0 +1,54 @@
+html, body, .container-fluid {
+    padding: 0;
+    margin: 0;
+    background-color: #18191c;
+  }
+.head {
+    display: block;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    -webkit-app-region: drag;
+    cursor: pointer;
+}
+button{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #818181;
+    background-color: #18191c;
+    font-size: 26px;
+    padding-top: 10px;
+    min-width: 200px;
+    border-bottom: 0px solid white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    float: left;
+}
+button:hover {
+    color: white;
+}
+input {
+    font-size:22px;
+    display:block;
+    min-width:300px;
+    height:100%;
+    padding:5px 10px;
+    background:none;
+    background-image:none;
+    border-bottom: 2px solid #a0b3b0;
+    color: white;
+  }
+
+a{
+    padding-left: 37px;
+    cursor: pointer;
+    clear: both;
+    padding-top: 10px;
+    float: left;
+    color: #818181;
+}
+a:hover {
+    color: white;
+}

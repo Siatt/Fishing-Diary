@@ -1,0 +1,159 @@
+.entryForm {
+    width: 600px;
+    margin: 120px auto;
+    /* padding-bottom: 50px; */
+    width: 70%;
+}
+.input {
+    width: 90%;
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid black;
+}
+input.invalid {
+    background-color: #ffdddd;
+}
+textarea {
+    width: 90%;
+    background-color: white;
+    color: black;
+    border: none;
+    margin: 0 auto;
+    resize: none;
+}
+textarea:focus {
+    outline: none;
+}
+h4{
+    padding: 10px;
+    margin: 0;
+}
+.visible-tab {
+    display: none;
+}
+input[type = "checkbox"] {
+    display: none;
+    /* width: 30px;
+    height: 30px; */
+}
+input[type = "checkbox"]:checked {
+    display: none;
+}
+.selected {
+    border-bottom: 1px solid black;
+}
+
+.tab {
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.4) 0px 1px 30px;
+    display:none;
+    color: black;
+	opacity: 1;
+    -webkit-animation: slideinright 1s;
+}
+
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none; 
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+.step.active {
+    opacity: 1;
+}
+.step.finish {
+    background-color: #4CAF50;
+}  
+.add-btn {
+    border: none;
+    outline: none;
+    background-color: #111;
+    color: #818181;
+    width: 90%;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.add-btn:hover{
+    color: white;
+    height: 40px;
+    width: 95%;
+    font-size: 30px;
+    cursor: pointer;
+}
+img {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+.button-wrapper {
+    background-color: red;
+}
+button {
+    width: 100px;
+    background: #67d5bf;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+.active {
+    transition: 1s;
+    left: 0;
+}
+.last-edit {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    font-size: 12px;
+    padding: 0px;
+}
+.last-edit p {
+    padding: 0px;
+    margin: 0px;
+}
+.next-btn:hover {
+    background-color: #25A189;
+}
+.prev-btn:hover {
+    background-color: #25A189;
+}
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none; 
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.step.active {
+    opacity: 1;
+}
+  
+.step.finish {
+    background-color: #4CAF50;
+}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes slideinright {
+    0% {-webkit-transform: translateX(100px);
+    opacity: 0;}
+    80% {opacity: 1}
+    100% {-webkit-transform: translateX(0px)}
+  }

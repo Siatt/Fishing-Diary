@@ -1,0 +1,31 @@
+{
+  "name": "ls223jb-project",
+  "version": "1.0.0",
+  "description": "fishing journal desktop app",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "mocha test/app.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1dv430/ls223jb-project.git"
+  },
+  "author": "Lucas Sjöqvist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1dv430/ls223jb-project/issues"
+  },
+  "homepage": "https://github.com/1dv430/ls223jb-project#readme",
+  "dependencies": {
+    "electron": "^1.8.4",
+    "electron-json-storage": "^4.0.2",
+    "form-parse": "^0.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "electron-mocha": "^6.0.2",
+    "mocha": "^5.2.0",
+    "spectron": "^3.8.0"
+  }
+}

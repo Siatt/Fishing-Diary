@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+html, body {
+    /* background-color: #eeeeee; */
+    background-color: white;
+    font-family: 'Montserrat';
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    overflow-x: hidden;
+    
+  }
+.container {
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    
+}
+#first-child {
+    z-index: 1000;
+    display: table-cell;
+    width: 15%;
+    height: 100%;
+    background-color: #111;
+    padding-top: 20px;
+}
+#second-child {
+    display: table-cell;
+    width: 85%;
+    margin: 0 auto;
+    overflow-y: hidden;
+    padding-top: 20px;
+
+}
+#first-child a {
+    padding: 4px 10px 4px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #818181;
+    display: block;
+}
+#first-child a:hover {
+    color: #f1f1f1;
+    cursor: pointer;
+}
+input {
+    padding: 4px 0px 4px 15px;
+    width: 85%;
+    border: none;
+    font-size: 16px;
+    background-color: #111;
+    height: 40px;
+    color: white;
+  }
+  input:focus{
+    outline: none;
+  }
+  .addBtn {
+    padding: 0px;
+    margin: 0 auto;
+    background-color: #111;
+    color: #818181;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #818181;
+}
+.addBtn:hover {
+    cursor: pointer;
+    border: 2px solid white;
+    color: white;
+}
+button {
+    border: none;
+    outline: none;
+}
+#content {
+    position: fixed;
+    height: 100%;
+    width: 85%;
+    text-align: center;
+    margin-top: 20px;
+}
+.test {
+    text-align: center;
+}
+.prev-btn {
+
+}
+.next-btn {
+    
+}
+
+.top-bar {
+    position: fixed;
+    display: block;
+    background-color: #111;
+    width: 100%;
+    height: 30px;
+    font-weight: bold;
+    text-align: right;
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+    margin: 0px;
+    padding: 0px;
+}
+
+.window-btns {
+    height: 30px;
+    width: 50px;
+    display: block;
+    background-color: #030202;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    -webkit-app-region: no-drag;
+}
+.window-btns:hover {
+    background-color: red;
+    cursor: pointer;
+}
+.delete-spot-btn {
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+}
+.spot-func {
+    display: inline-block;
+    font-size: 24px;
+}
+.rotate {
+    margin: 0px;;
+    padding: 0px;
+    font-size: 24px;
+    /* Safari */
+-webkit-transform: rotate(-45deg);
+
+/* Firefox */
+-moz-transform: rotate(-45deg);
+
+/* IE */
+-ms-transform: rotate(-45deg);
+
+/* Opera */
+-o-transform: rotate(-45deg);
+}
+.rotate2 {
+    margin: 0px;;
+    padding: 0px;
+    font-size: 300px;
+    /* Safari */
+-webkit-transform: rotate(-180deg);
+
+/* Firefox */
+-moz-transform: rotate(-180deg);
+
+/* IE */
+-ms-transform: rotate(-180deg);
+
+/* Opera */
+-o-transform: rotate(-180deg);
+}

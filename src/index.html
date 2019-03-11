@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Fishing Journal</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="../assets/css/forms/entry.css">
+  <link rel="stylesheet" href="../assets/css/entryShowcase.css">
+  <link rel="stylesheet" href="../assets/css/entryCollision.css">
+  <link rel="stylesheet" href="../assets/css/edit.css">
+  <!-- Template -->
+  <link rel="import" href="templates/entry.html">
+  <link rel="import" href="templates/entryShowcase.html">
+  <link rel="import" href="templates/entryCollision.html">
+  <template id="#entry-container-temp">
+      <div class="entry-container">
+              <h5 id="location">Location</h5>
+              <h6 id="date">Date</h6>
+              <h6 id="time"></h6>
+      </div>
+</template>
+
+</head>
+
+<body>
+    <div class="top-bar">
+      <div style="float: right;">
+        <div id="close" style="float:right;" class="window-btns">
+          &times;
+        </div>
+        <div id="minimize" style="float:left;" class="window-btns">
+          -
+        </div>
+      </div>
+      <!-- <a href="#">-</a>
+      <a href="#">&times;</a> -->
+    </div>
+  <div class="container">
+
+    <div id="first-child">
+        <form>
+            <input type="text" placeholder="Search..." id="search">
+          </form>
+          <a href="#" style="font-size: 14px;"><button class="addBtn">+</button>  </a>
+          <a href="#" id="addEntryBtn">Add Entry</a>
+          <a href="#" id="deleteBtn">Delete</a>
+          <a href="#" id="backBtn">Back</a>
+          <br>
+          <div id="nav" class="nav">
+           </div>
+    </div>
+
+    <div id="second-child">
+
+      <div id="content">
+      </div>
+
+    </div>
+
+  </div>
+</body>
+<script>
+  require('./js/index.js')
+  require('./js/forms/entryForm')
+  require('./js/menu/multiLogs')
+  require('./js/windowMenu')
+</script>
+
+</html>
