@@ -1,5 +1,5 @@
 # Fishing Journal
-![](https://imgur.com/NTdc4l5.jpg)
+![](https://i.imgur.com/nBjsBhp.png)
     
 ### Requirments
 You need [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) to install and run scripts
